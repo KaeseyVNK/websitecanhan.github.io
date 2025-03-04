@@ -8,6 +8,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Thêm các phần tử 3D vào background -->
+    <div class="game-elements">
+        <div class="floating-cube"></div>
+        <div class="floating-cube"></div>
+        <div class="floating-cube"></div>
+        <div class="floating-sphere"></div>
+        <div class="floating-sphere"></div>
+        <div class="controller-3d">
+            <div class="controller-3d-face"></div>
+            <div class="controller-3d-face"></div>
+            <div class="controller-3d-face"></div>
+            <div class="controller-3d-face"></div>
+            <div class="controller-3d-face"></div>
+            <div class="controller-3d-face"></div>
+        </div>
+        <div class="floating-controller controller-ps"></div>
+        <div class="floating-controller controller-xbox"></div>
+        <div class="floating-controller controller-switch"></div>
+    </div>
+    
     <div class="container">
         <header>
             <div class="profile-header">
@@ -16,12 +36,14 @@
                 </div>
                 <div class="profile-nav">
                     <h1>Võ Trung Kiên</h1>
-                    <p class="title">Lập Trình Viên GameDeveloper</p>
+                    <p class="title">Unity Game Developer</p>
                     <div class="social-icons">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
                         <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-unity"></i></a>
+                        <a href="#"><i class="fab fa-steam"></i></a>
                     </div>
                 </div>
             </div>
@@ -30,34 +52,76 @@
         <main>
             <section class="about">
                 <h2>Giới Thiệu</h2>
-                <p>Xin chào! Tôi là Nguyễn Văn A, một lập trình viên Game đam mê với hơn 3 năm kinh nghiệm. Tôi chuyên về phát triển front-end với HTML, CSS, JavaScript và các framework hiện đại như React.</p>
+                <p>Xin chào! Tôi là Võ Trung Kiên, một Unity Game Developer đam mê với hơn 3 năm kinh nghiệm. Tôi chuyên về phát triển game 3D, gameplay mechanics và tối ưu hóa hiệu suất. Tôi luôn tìm kiếm những thách thức mới để nâng cao kỹ năng và sáng tạo trong lĩnh vực game development.</p>
             </section>
 
             <section class="skills">
                 <h2>Kỹ Năng</h2>
                 <div class="skill-bars">
                     <div class="skill">
-                        <span>HTML/CSS</span>
+                        <span>Unity Engine</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
                         <div class="progress-bar">
                             <div class="progress" style="width: 90%"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>JavaScript</span>
+                        <span>Game Design</span>
                         <div class="progress-bar">
                             <div class="progress" style="width: 85%"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>React</span>
+                        <span>3D Modeling</span>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 80%"></div>
+                            <div class="progress" style="width: 70%"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Node.js</span>
+                        <span>AR/VR Development</span>
                         <div class="progress-bar">
                             <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects">
+                <h2>Dự Án Game</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/300x200" alt="Game Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Adventure Quest</h3>
+                            <p>3D RPG game với hệ thống chiến đấu sáng tạo và thế giới mở</p>
+                            <div class="project-tags">
+                                <span>Unity</span>
+                                <span>3D</span>
+                                <span>RPG</span>
+                            </div>
+                            <a href="#" class="project-link">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/300x200" alt="Game Project 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>Space Shooter VR</h3>
+                            <p>Game bắn súng VR với cơ chế điều khiển đổi mới</p>
+                            <div class="project-tags">
+                                <span>Unity</span>
+                                <span>VR</span>
+                                <span>Shooter</span>
+                            </div>
+                            <a href="#" class="project-link">Xem chi tiết</a>
                         </div>
                     </div>
                 </div>
@@ -69,17 +133,17 @@
                     <div class="timeline-item">
                         <div class="timeline-date">2021 - Hiện tại</div>
                         <div class="timeline-content">
-                            <h3>Lập Trình Viên Front-end</h3>
-                            <p>Công ty ABC</p>
-                            <p>Phát triển và duy trì các ứng dụng web sử dụng React và Redux. Tối ưu hóa hiệu suất và trải nghiệm người dùng.</p>
+                            <h3>Unity Game Developer</h3>
+                            <p>GameStudio XYZ</p>
+                            <p>Phát triển gameplay mechanics, tối ưu hóa hiệu suất và triển khai các tính năng mới cho các dự án game mobile và PC.</p>
                         </div>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-date">2019 - 2021</div>
                         <div class="timeline-content">
-                            <h3>Lập Trình Viên Web</h3>
-                            <p>Công ty XYZ</p>
-                            <p>Phát triển giao diện người dùng với HTML, CSS và JavaScript. Làm việc với các API và cơ sở dữ liệu.</p>
+                            <h3>Junior Game Developer</h3>
+                            <p>Indie Game Studio ABC</p>
+                            <p>Phát triển prototype game, lập trình AI đơn giản và thiết kế level cho các game 2D và 3D.</p>
                         </div>
                     </div>
                 </div>
@@ -88,8 +152,12 @@
             <section class="education">
                 <h2>Học Vấn</h2>
                 <div class="education-item">
-                    <h3>Đại học Công nghệ</h3>
-                    <p>Cử nhân Khoa học Máy tính (2015 - 2019)</p>
+                    <h3>Đại học Công nghệ Thông tin</h3>
+                    <p>Cử nhân Khoa học Máy tính, chuyên ngành Game Development (2015 - 2019)</p>
+                </div>
+                <div class="education-item">
+                    <h3>Chứng chỉ Unity Certified Developer</h3>
+                    <p>Unity Technologies (2020)</p>
                 </div>
             </section>
 
@@ -98,7 +166,7 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
-                        <p>email@example.com</p>
+                        <p>kien.gamedev@example.com</p>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
@@ -106,15 +174,27 @@
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
-                        <p>Hà Nội, Việt Nam</p>
+                        <p>TP. Hồ Chí Minh, Việt Nam</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-discord"></i>
+                        <p>kien_gamedev#1234</p>
                     </div>
                 </div>
             </section>
         </main>
 
         <footer>
-            <p>&copy; 2023 Nguyễn Văn A. Tất cả các quyền được bảo lưu.</p>
+            <p>&copy; 2023 Võ Trung Kiên. Tất cả các quyền được bảo lưu.</p>
         </footer>
+    </div>
+
+    <!-- Thêm vào cuối body trước </body> -->
+    <div class="game-decorations">
+        <div class="game-controller-icon"></div>
+        <div class="game-pixel-art"></div>
+        <div class="game-joystick"></div>
+        <div class="game-console"></div>
     </div>
 </body>
 </html> 
